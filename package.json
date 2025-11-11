@@ -1,0 +1,19 @@
+{
+  "name": "minor-moon",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "rm -rf dist && astro build",
+    "preview": "astro preview",
+    "deploy": "npm run build && gh-pages -d dist -b gh-pages"
+  },
+  "dependencies": {
+    "astro": "^5.15.4",
+    "sweetalert2": "^11.26.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "patch-package": "^8.0.1"
+  }
+}
